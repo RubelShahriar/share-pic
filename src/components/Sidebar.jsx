@@ -20,7 +20,7 @@ const Sidebar = ({ closeToggle, user }) => {
       <div className="flex flex-col">
         <Link
           to="/"
-          className="flex px-5 gap-2 my-6 pt-1 items-center font-bold text-lg text-red-400 "
+          className="flex px-5 gap-2 my-6 pt-1 items-center font-bold text-lg text-blue-500 "
           onClick={handleCloseSidebar}
         >
           <FaCamera className="text-2xl" style={{ marginTop: "-5px" }} />{" "}
